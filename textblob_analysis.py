@@ -40,7 +40,7 @@ def main():
     sub= False
     files = []
 
-    for s in argv:
+    for s in argv[1:]:
         if s == '-p':
             print('Run polarity.')
             pol = True
